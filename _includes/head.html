@@ -1,0 +1,37 @@
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<meta property="og:title" content="Bama Fiber | {{ page.title }}" />
+	<meta property="og:locale" content="en_US" />
+	<meta name="description" content="{{ site.description }}" />
+	<meta property="og:description" content="{{ site.description }}" />
+	{%- if page.image -%} 
+	<meta property="og:image" content="{{ page.image | relative_url }}">
+	{%- else -%} 
+	<meta property="og:image" content="{{ site.image | relative_url }}">
+	{%- endif -%} 
+	<link rel="icon" href="{{ site.image | relative_url }}">
+	<link rel="canonical" href="{{ site.url }}" />
+	<meta property="og:url" content="{{ site.url }}" />
+	<meta property="og:site_name" content="Bama Fiber" />
+	<meta property="og:type" content="website" />
+	<title>Bama Fiber | {{ page.title }}</title>
+	<!--[if lt IE 9]>
+	<script src="{{ '/assets/js/html5.js' | relative_url }}"></script>
+	<![endif]-->
+	<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all">
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}" type="text/css" media="all" />
+	<![endif]-->
+	<style type="text/css">
+		.site-header {
+			background: no-repeat scroll top;
+			background-color: rgba(0,31,96,255);
+			margin: 0 auto;
+		}
+		.site-title,
+		.site-description {
+			color: #FDFDFD;
+		}
+	</style>
+</head>

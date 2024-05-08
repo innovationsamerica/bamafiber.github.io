@@ -1,4 +1,49 @@
-theme: jekyll-theme-architect
-title: Bama Fiber
-tagline: Connecting Alabama
-description: Connecting Alabama
+---
+title: Bama Fiber - Fiber Optic Internet for Your Home or Business
+timezone: America/Chicago
+collections:
+  posts:
+    title: Posts
+    output: true
+  programs:
+    title: Programs
+    output: true
+    permalink: "/:collection/:title"
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: programs
+  values:
+    layout: product
+    price: 100
+author: Bama Fiber
+baseurl: 
+url: https://www.bamafiber.com
+email: info@innovationsamerica.com
+enforce_ssl: www.bamafiber.com
+description: Alabama based Fiber Optic Internet for Your Home or Business
+image: "/assets/images/logo.jpg"
+search: true
+markdown: kramdown
+plugins:
+- jekyll-octicons
+- jekyll-sitemap
+jekyll-mentions:
+  base_url: https://github.com
+compress_html:
+  ignore:
+    envs:
+    - development
+    - stage
+sass:
+  style: compressed
+exclude:
+- vendor
+- README.md
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- CNAME
