@@ -93,7 +93,10 @@ select,
 textarea {
 	font-family: $base-font-family;
 }
-
+table, th, td {
+	border: 1px solid black;
+  }
+  
 body {
 	color: $delta;
 	line-height: 1.5;
