@@ -1,27 +1,12 @@
-{%- if site.search -%}
-<script>
-	{%- include search/search.js -%}
-</script>
-{%- endif -%}
+
 
 <div itemscope itemtype="http://schema.org/LocalBusiness" id="page" class="hfeed site">
-	<meta itemprop="image" content="{{ site.image }}" />
-	<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-		<meta itemprop="addressLocality" content="Old Greenwich" />
-		<meta itemprop="addressRegion" content="CT" />
-		<meta itemprop="postalCode" content="06870" />
-	</div>
-	<meta itemprop="priceRange" content="$" />
 	<header id="masthead" class="site-header">
-		<video id="banner-video" src="{{ '/assets/video/banner.m4v' | relative_url }}" autoplay loop muted></video>
-		<a class="home-link" href="{{ '/#page' | relative_url }}" title="Macmillan Films" rel="home">
-			<h1 itemprop="name" class="site-title">Macmillan Films</h1>
+		<a class="home-link" href="{{ '/' | relative_url }}" title="Bama Fiber" rel="home">
+		<img class="logo" src="{{ '/assets/images/logo.jpg' | relative_url }}" alt="Bama Fiber Logo" width="300" height="300">
 			<h2 class="site-description">
-				Educational Programming Studio
+				Fiber Optic Internet for Your Home or Business
 			</h2>
-			<h3 class="site-description">
-				Phone: <span itemprop="telephone">(917) 664-0507</span>
-			</h3>
 		</a>
 	</header><!-- #masthead -->
 	<div id="navbar" class="navbar">
@@ -31,24 +16,12 @@
 				<input id="home-dropdown" type="checkbox" name="menu" />
 				<label for="home-dropdown" class="menu-toggle">Menu &raquo;</label>
 				<ul class="nav-menu">
-					<li class="menu-item menu-item-has-children"><a>Programs</a>
-						<ul class="sub-menu">
-							{%- for program in site.programs -%} 
-							<li>
-								<a href="{{ program.url | relative_url }}">{{ program.title }}</a>
-							</li>
-							{%- endfor -%}
-						</ul>
-					</li>
 					{% for item in site.data.nav %}
 					<li>
 						<a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
 					{% endfor %}
 				</ul>
 			</div>
-			{%- if site.search -%}
-			{%- include search/searchbar.html -%}
-			{%- endif -%}
 		</nav><!-- #site-navigation -->
 	</div><!-- #navbar -->
 </div>

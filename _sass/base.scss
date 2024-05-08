@@ -471,9 +471,7 @@ video {
  */
 
 .site {
-	background-color: #000;
-	border-left: 1px solid #f2f2f2;
-	border-right: 1px solid #f2f2f2;
+	background-color: #001f60;
 	margin: 0 auto;
 	width: 100%;
 }
@@ -516,10 +514,16 @@ video {
 	display: block;
 	margin: 0 auto;
 	max-width: 1080px;
-	min-height: 230px;
+	text-align: center;
 	padding: 0 20px;
 	text-decoration: none;
 	width: 100%;
+}
+
+.site-header .logo {
+	display: block;
+	margin: 0 auto;
+	text-decoration: none;
 }
 
 .site-header .site-title:hover {
@@ -644,7 +648,7 @@ ul.nav-menu .focus > ul,
 
 /* Navbar */
 .navbar {
-	background-color: $delta;
+	background-color: #009af2;
 	margin: 0 auto;
 	width: 100%;
 }
@@ -1137,8 +1141,8 @@ footer.entry-meta {
  */
 
 .site-footer {
-	background-color: $delta;
-	color: #686758;
+	background-color: #009af2;
+	color: #ffffff;
 	font-size: 14px;
 	text-align: center;
 	flex-shrink: 0;
