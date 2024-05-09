@@ -96,6 +96,13 @@ textarea {
 table, th, td {
 	border: 1px solid black;
   }
+  @media screen and (max-width: 750px) {
+    iframe {
+        max-width: 100% !important;
+        width: auto !important;
+        height: auto !important;
+    }
+}
   
 body {
 	color: $delta;
