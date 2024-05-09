@@ -12,19 +12,12 @@ layout: page
 </a>
 
 
-Bama Fiber is bringing Randolph County big-city internet speed with its Fiber-to-the-Home (FTTH) network.
-No sign-up fees
+Bama Fiber is bringing fiber-optic internet service to homes and businesses throughout Randolph County.    It’s secure, reliable, and F-A-S-T internet service for your home or business.
 
-Just secure, reliable, and speedy internet service with fiber-optic technology. 
-
-We’ll provide you all the equipment you need, including a Wi-Fi router, at speeds up to 2 gigabits/second!
+There are no contracts and we’ll provide all the equipment you need, including a Wi-Fi router, to give you the speed you’ll need for streaming TV, working from home, video conferencing, telemedicine, VR gaming, and all the benefits of “Internet at the Speed of Light!”
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d426826.6238530788!2d-85.77281356983245!3d33.3035708114954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x888b71716a5f1fa5%3A0x4344932a8658305d!2sRandolph%20County%2C%20AL!5e0!3m2!1sen!2sus!4v1715206143794!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-<!---
-<TODO> Link to goog map
-<TODO> pacakges
--->
 
 ## Internet at the speed of light!
 
